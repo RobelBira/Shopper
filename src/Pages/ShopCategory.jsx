@@ -12,7 +12,7 @@ const {all_product}=useContext(ShopContext)
   return (
     <div className="shop-category">
       <img
-        onClick={window.scrollTo(10, 10)}
+        
         className="shopcategory-banner"
         src={props.banner}
         alt=""
